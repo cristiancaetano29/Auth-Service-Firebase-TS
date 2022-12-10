@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
+//if you want to use firebase in your project, you need to create a .env file in the root of your project and add the following variables
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREAPIKEY_KEY,
     authDomain: import.meta.env.VITE_FITEAUTHDOMAIN_KEY,
